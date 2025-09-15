@@ -1,0 +1,112 @@
+* { /* Lembrar de estudar: Reset CSS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.topo {
+    background: #ffffff;
+    color: #ff0000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+#menu {
+  background-color: #333; 
+  padding: 10px 0;      
+}
+
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;     
+}
+
+
+#menu ul li {
+  display: inline-block;  
+  margin: 0 15px;         
+}
+
+
+#menu ul li a {
+  text-decoration: none;  
+  color: white;           
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;       
+}
+
+
+#menu ul li a:hover {
+  color: #ff0000;     
+}
+
+.sobre {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}   
+
+.sobre p {
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.sobre h3 {
+  color: #ff0000;
+  margin-bottom: 15px;
+}
+
+.sobre ol {
+  list-style: none;
+  padding: 0;
+}
+
+#rodape {
+  background-color: #333; 
+  color: white;
+  padding: 50px 0;   
+  text-align: center;   
+}
+
+
+#rodape ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;     
+}
+
+
+#rodape ul li {
+  display: inline-block;  
+  margin: 0 15px;         
+}
+
+
+#rodape ul li a {
+  text-decoration: none;  
+  color: rgb(255, 255, 255);           
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;       
+}
+
+
+#rodape ul li a:hover {
+  color: #ff0000;     
+}
+

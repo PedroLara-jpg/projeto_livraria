@@ -1,0 +1,133 @@
+* { /* Lembrar de estudar: Reset CSS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.topo {
+    background: #ffffff;
+    color: #ff0000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+#menu {
+  background-color: #333; 
+  padding: 10px 0;      
+}
+
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;     
+}
+
+
+#menu ul li {
+  display: inline-block;  
+  margin: 0 15px;         
+}
+
+
+#menu ul li a {
+  text-decoration: none;  
+  color: white;           
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;       
+}
+
+
+#menu ul li a:hover {
+  color: #ff0000;     
+}
+
+.destaques {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.destaques h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.destaques ul {
+  list-style: none;     
+  padding: 0;
+  margin: 0;
+  display: grid;          
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 200px;            
+}
+
+.destaques ul li {
+  text-align: center;
+}
+
+.destaques ul li img {
+  width: 150px;
+  height: 230px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.destaques ul li img:hover {
+  transform: scale(1.05); 
+}
+
+.destaques ul li p {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+#rodape {
+  background-color: #333; 
+  color: white;
+  padding: 50px 0;   
+  text-align: center;   
+}
+
+
+#rodape ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;     
+}
+
+
+#rodape ul li {
+  display: inline-block;  
+  margin: 0 15px;         
+}
+
+
+#rodape ul li a {
+  text-decoration: none;  
+  color: rgb(255, 255, 255);           
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;       
+}
+
+
+#rodape ul li a:hover {
+  color: #ff0000;     
+}
+
